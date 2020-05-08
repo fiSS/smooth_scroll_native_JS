@@ -1,2 +1,47 @@
-body{margin:0;font-family:sans-serif}.button{padding:10px 20px;background-color:tomato;font-size:16px;font-weight:bold;cursor:pointer}.button_block{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;padding:10px}.section{height:100vh;background-color:pink}.footer{height:100vh;background-color:#333333}.footer_block{padding:10px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
-/*# sourceMappingURL=style.min.css.map */
+body {
+    margin: 0;
+    font-family: sans-serif
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: tomato;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer
+}
+
+.button_block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 10px
+}
+
+.section {
+    height: 100vh;
+    background-color: pink
+}
+
+.footer {
+    display: flex;
+    height: 100vh;
+    background-color: #333333
+}
+
+.footer .footer_block {
+    padding: 10px;
+    align-self: flex-end;
+    margin: 0 auto;
+}
+
+.footer .footer_block .button {
+    align-self: flex-end;
+    margin: 0 auto;
+}
