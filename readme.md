@@ -15,7 +15,7 @@
 </body>
 ```
 #### JS
-##### созда функцию scrollTo:
+##### создал функцию scrollTo:
 ```javascripy
 function scrollTo(element)
 ```
